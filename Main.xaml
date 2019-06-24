@@ -88,6 +88,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExcelApplicationScope>
-    <e:ExcelToPDF Output="{x:Null}" DestinationPath="[Directory.GetCurrentDirectory]" DisplayName="Excel to PDF" ExcelSourcePath="[Directory.GetCurrentDirectory+ &quot;\&quot; + file_name]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="ExcelToPDF_1" RemovePageBreaks="True" SheetName="Sheet1" />
+    <e:ExcelToPDF Output="{x:Null}" DestinationPath="[Directory.GetCurrentDirectory+&quot;\&quot; + file_name]" DisplayName="Excel to PDF" ExcelSourcePath="[Directory.GetCurrentDirectory+ &quot;\&quot; + file_name]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="ExcelToPDF_1" RemovePageBreaks="True" SheetName="Sheet1" />
   </Sequence>
 </Activity>
